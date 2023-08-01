@@ -1,1 +1,44 @@
 /* Zdjęcia dodane przez Vojtech Okenka: https://www.pexels.com/pl-pl/zdjecie/babeczka-zwienczona-bialym-lukier-1055271/ */
+
+html {
+    font-size:1.5rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(221, 160, 221, 0.5);
+}
+
+#carousel_container {
+    margin: 3rem auto;
+    padding: 1rem;
+    width: 17rem;
+    background-color: rgba(229, 226, 226, 0.5);
+    border-radius: 1rem;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.photos img {
+    width: 15rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons_container .button {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem 1rem 0 1rem;
+    background-color: rgba(255, 0, 255, 0.5);
+    border-radius: 50%;
+}
