@@ -11,8 +11,8 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 0, 0.3);
-    /* background-color: rgba(221, 160, 221, 0.5); */
+    background-color: rgba(255, 215, 0, 0.5);
+  
 }
 
 #carousel_container {
